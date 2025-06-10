@@ -13,7 +13,7 @@ This patch extends Redmine-s email fetcher to be able to read emails via IMAP au
   * https://developers.google.com/identity/protocols/oauth
 2. Generate PermissionURL by calling the receive_imap_oauth_init task
   * INTERACTIVE - call from cli with proper arguments like initgmail.sh and follow commands
-3. Get permission code
+3. Get authorization code
 4. Generate first token (it will contain renew_token, which works till revoke)
   * it saves to token_file 
 5. Call receive_imap_oauth to fetch mails like fetchmail.sh or as you want. 

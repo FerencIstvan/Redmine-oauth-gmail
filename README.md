@@ -41,3 +41,4 @@ Steps 0-2 could be done with python oauth2, i have learned the method from there
  * Jan Catrysse: https://www.redmine.org/attachments/34596
  * https://github.com/google/gmail-oauth2-tools/blob/master/python/oauth2.py
  * https://developers.google.com/identity/protocols/oauth
+ * https://github.com/ondrejbima/redmine-email-oauth
